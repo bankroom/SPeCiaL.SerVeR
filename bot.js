@@ -15,7 +15,6 @@ client.on('ready', () => {
         .setThumbnail(memberavatar)
         .addField('🎽 | name :  ',`${member}`)
         .addField('📢 | اطلق من دخل' , `**Welcome to  SPeCiaL.SerVeR :rose:**, ${member}`)
-        .addField('🆔 | user :', "**[" + `${member.id}` + "]**" )
                                        
      .setFooter(`${member.guild.name}`)
         .setTimestamp()
