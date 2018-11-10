@@ -5,13 +5,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-
-
-
-
-
-
- 
   
  client.on('guildMemberAdd', member => {
     let channel = member.guild.channels.find('name', '¥chat');
@@ -28,13 +21,6 @@ client.on('ready', () => {
    
       channel.sendEmbed(embed);
 });
-
-
-
-
-
-
-
 
 
 
