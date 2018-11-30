@@ -14,7 +14,7 @@ client.on('ready', () => {
         .setColor('PURPLE')
         .setThumbnail(memberavatar)
         .addField('🎽 | name :  ',`${member}`)
-        .addField('📢 | اطلق من دخل' , `**Welcome to  Ｗ|ＳＥＲＶＥＲ :rose:**, ${member}`)
+        .addField('📢 | اهـــــلا حبي في سيرفرنا' , `**Welcome to  Ｗ|ＳＥＲＶＥＲ :rose:**, ${member}`)
                                        
      .setFooter(`${member.guild.name}`)
         .setTimestamp()
