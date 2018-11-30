@@ -27,7 +27,7 @@ client.on('ready', () => {
 client.on("message", message => {
 var prefix = "*";//البرفكس
         if(message.content.startsWith(prefix + "say")) {
-    if(message.author.id !== "517782539956387850") return message.reply("هذا الامر لصحاب البوت فقط");
+    if(message.author.id !== "490688243864567834") return message.reply("هذا الامر لصحاب البوت فقط");
         let args = message.content.split(" ").slice(1);
 message.channel.send(args)
  message.delete()
