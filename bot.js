@@ -7,7 +7,7 @@ client.on('ready', () => {
 
   
  client.on('guildMemberAdd', member => {
-    let channel = member.guild.channels.find('name', '¥chat');
+    let channel = member.guild.channels.find('name', '𝐖𝐄𝐋𝐂𝐎𝐌𝐄');
     let memberavatar = member.user.avatarURL
       if (!channel) return;
     let embed = new Discord.RichEmbed()
@@ -27,7 +27,7 @@ client.on('ready', () => {
 client.on("message", message => {
 var prefix = "*";//البرفكس
         if(message.content.startsWith(prefix + "say")) {
-    if(message.author.id !== "490688243864567834") return message.reply("هذا الامر لصحاب البوت فقط");
+    if(message.author.id !== "518184058031833141") return message.reply("هذا الامر لصحاب البوت فقط");
         let args = message.content.split(" ").slice(1);
 message.channel.send(args)
  message.delete()
